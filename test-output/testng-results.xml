@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[execution is started]]>
+    </line>
+    <line>
+      <![CDATA[execution is completed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28677" started-at="2021-01-11T17:00:23Z" finished-at="2021-01-11T17:00:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28677" started-at="2021-01-11T17:00:23Z" finished-at="2021-01-11T17:00:51Z">
+      <class name="test.TESTFramework">
+        <test-method status="PASS" signature="executionstarted()[pri:0, instance:test.TESTFramework@33c7e1bb]" name="executionstarted" is-config="true" duration-ms="10" started-at="2021-01-11T17:00:23Z" finished-at="2021-01-11T17:00:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[execution is started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executionstarted -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.TESTFramework@33c7e1bb]" name="openBrowser" is-config="true" duration-ms="13052" started-at="2021-01-11T17:00:23Z" finished-at="2021-01-11T17:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="enter()[pri:0, instance:test.TESTFramework@33c7e1bb]" name="enter" duration-ms="15590" started-at="2021-01-11T17:00:36Z" finished-at="2021-01-11T17:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TESTFramework@33c7e1bb]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-01-11T17:00:51Z" finished-at="2021-01-11T17:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="executionstopped()[pri:0, instance:test.TESTFramework@33c7e1bb]" name="executionstopped" is-config="true" duration-ms="1" started-at="2021-01-11T17:00:52Z" finished-at="2021-01-11T17:00:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[execution is completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executionstopped -->
+      </class> <!-- test.TESTFramework -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
